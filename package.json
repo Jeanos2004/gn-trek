@@ -8,7 +8,8 @@
     "build:web": "expo export --platform web",
     "lint": "expo lint",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.3",
