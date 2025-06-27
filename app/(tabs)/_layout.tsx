@@ -10,15 +10,15 @@ export default function TabLayout() {
   const tabConfig = [
     {
       name: 'index',
-      title: 'Explorer',
-      icon: Compass,
-      focusedIcon: Mountain,
+      title: 'Accueil',
+      icon: Home,
+      focusedIcon: Home,
     },
     {
       name: 'galerie', 
       title: 'Galerie',
       icon: Camera,
-      focusedIcon: TreePine,
+      focusedIcon: Camera,
     },
     {
       name: 'carte',
@@ -36,7 +36,7 @@ export default function TabLayout() {
       name: 'paiement',
       title: 'Premium',
       icon: CreditCard,
-      focusedIcon: Shield,
+      focusedIcon: CreditCard,
     },
     {
       name: 'admin',
